@@ -48,8 +48,9 @@ online example: http://react-component.github.io/pagination/examples/
 
 ```js
 var Pagination = require('rc-pagination');
+var usLocale = require('rc-pagination/lib/locale/en_US');
 var React = require('react');
-React.render(<Pagination />, container);
+React.render(<Pagination locale=usLocale/>, container);
 ```
 
 ## API
